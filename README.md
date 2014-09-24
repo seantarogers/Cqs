@@ -3,7 +3,7 @@ Cqs
 
 Overview
 ------
-A high performance Cqs architecture implemented in MVC using Dapper, Entity Framework, Simple Injector and claims based authorisation.
+A Cqs architecture implemented in MVC using Dapper, Entity Framework, Simple Injector and claims based authorisation.
 
 To Run
 ------
