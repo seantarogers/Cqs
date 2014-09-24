@@ -1,0 +1,28 @@
+﻿@model Cqs.Presentation.Web.ViewModels.OrdersViewModel
+
+@{
+    ViewBag.Title = "Get";
+}
+
+<h2>View all Orders for @Model.CustomerName</h2>
+
+<table class="table table-striped table-hover">
+    <thead>
+        <tr>
+            <th>Product Name</th>
+            <th>Order placed on</th>
+            <th>Order dispatched</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (var customerViewModel in Model.Data.Orders)
+        {
+            <tr>
+                <td>@customerViewModel.ProductName</td>
+                <td>@customerViewModel.PlacedOn</td>
+                <td>@customerViewModel.DispatchedOn</td>
+            </tr>
+        }
+    </tbody>
+</table>

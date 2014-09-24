@@ -1,0 +1,32 @@
+﻿@model Cqs.Presentation.Web.ViewModels.LastNameSearchViewModel
+
+@{
+    ViewBag.Title = "Search";
+}
+
+<h2>Search</h2>
+
+<h4>Search for an Applied Systems customer by last name.</h4>
+<hr />
+
+@using (Html.BeginForm("Search", "Customer", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.LastName, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.LastName, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" class="btn btn-default" value="Search" />
+        </div>
+    </div>
+}
+
+@if (Model.Customers.Any())
+{
+   @Html.Partial("_Customers", Model.Customers)
+}
+

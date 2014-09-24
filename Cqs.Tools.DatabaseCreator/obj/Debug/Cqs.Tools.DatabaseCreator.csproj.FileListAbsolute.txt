@@ -1,0 +1,1 @@
+C:\GitHub\Cqs\Cqs.Tools.DatabaseCreator\bin\Debug\Cqs.Tools.DatabaseCreator.exe.config

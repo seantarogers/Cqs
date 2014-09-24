@@ -1,0 +1,8 @@
+﻿@model  Cqs.Presentation.Web.ViewModels.CustomersViewModel
+@{
+    ViewBag.Title = "View all customers";
+}
+
+<h2>@ViewBag.Title.</h2>
+
+@Html.Partial("_Customers", Model.Data.Customers)
