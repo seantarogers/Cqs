@@ -19,4 +19,4 @@ To Run the Query Performance Benchmarking Console
 
 Credits
 ------
-This prototype builds upon the excellent patterns and ideas of the .Net Junkie https://www.cuttingedge.it/blogs/steven/
+This prototype builds upon the excellent patterns of the .Net Junkie https://www.cuttingedge.it/blogs/steven/
