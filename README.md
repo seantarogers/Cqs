@@ -14,4 +14,4 @@ To Run
 
 Credits
 ------
-This prototype extends the excellent patterns and ideas of the .Net Junkie https://www.cuttingedge.it/blogs/steven/
+This prototype builds on the excellent patterns and ideas of the .Net Junkie https://www.cuttingedge.it/blogs/steven/
