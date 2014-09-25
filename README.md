@@ -4,7 +4,7 @@ Cqs
 Overview
 ------
 A Cqs architecture implemented in MVC using Dapper, Entity Framework, Simple Injector and claims based authorisation.
-Also includes a query performance benchmarking console, that compares entity framework and dapper as tools for querying.
+Also includes a query performance benchmarking console, that compares Entity Framework and Dapper as appropriate tools for querying.
 
 To Run the Web Application
 ------
