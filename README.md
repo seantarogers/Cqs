@@ -4,7 +4,7 @@ Cqs
 Overview
 ------
 A Cqs architecture implemented in MVC using Dapper, Entity Framework, Simple Injector and claims based authorisation.
-Also includes a query performance benchmarking application, that compares entity framework and dapper as tools for querying.
+Also includes a query performance benchmarking console, that compares entity framework and dapper as tools for querying.
 
 To Run the Web Application
 ------
@@ -13,7 +13,7 @@ To Run the Web Application
 3. Browse to the route of the site which is .../Customers
 4. Run the performance tests by executing - Cqs.PerformanceTests
 
-To Run the Query Performance Benchmarking Application
+To Run the Query Performance Benchmarking Console
 ------
 1. Update the configs to point at your Sql Server instance - configs that need updating are in Cqs.PerformanceTests, Cqs.Tools.DatabaseCreator. Run the Cqs.Tools.DatabaseCreator - this will create your database, and add some sprocs and data.
 2. Run the Cqs.PerformanceTests and watch for the output on the screen 
