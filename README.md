@@ -15,7 +15,7 @@ To Run the Web Application
 
 To Run the Query Performance Benchmarking Application
 ------
-1. Update the configs to point at your Sql Server instance - configs that need updating are in Cqs.PerformanceTests, Cqs.Tools.DatabaseCreator and Cqs.Presentation.Web. Run the Cqs.Tools.DatabaseCreator - this will create your database, and add some sprocs and data.
+1. Update the configs to point at your Sql Server instance - configs that need updating are in Cqs.PerformanceTests, Cqs.Tools.DatabaseCreator. Run the Cqs.Tools.DatabaseCreator - this will create your database, and add some sprocs and data.
 2. Run the Cqs.PerformanceTests and watch for the output on the screen 
 
 Credits
